@@ -6,7 +6,7 @@ sudo yum update -y
 sudo yum install docker git -y
 sudo usermod -a -G docker ec2-user
 ```
-
+restart the session to able to run docker commands
 
 ## install docker compose
 ```bash
