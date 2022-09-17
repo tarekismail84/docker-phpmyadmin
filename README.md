@@ -44,3 +44,7 @@ PMA_ARBITRARY=1
 PMA_ABSOLUTE_URI=https://host.domain.tld
 ```
 
+## start phpmyadmin
+```bash
+docker-compose up -d
+```
