@@ -1,0 +1,4 @@
+host.domain.tld {
+  reverse_proxy <CONTAINER>:<PORT>
+  reverse_proxy /<DIR>/<PATH> <CONTAINER>:<PORT>
+}
