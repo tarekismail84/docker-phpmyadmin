@@ -3,7 +3,7 @@
 ## install docker
 ```bash
 sudo yum update -y
-sudo yum install docker -y
+sudo yum install docker git -y
 sudo usermod -a -G docker ec2-user
 ```
 

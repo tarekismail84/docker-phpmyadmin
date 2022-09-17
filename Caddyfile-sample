@@ -1,4 +1,3 @@
 host.domain.tld {
-  reverse_proxy <CONTAINER>:<PORT>
-  reverse_proxy /<DIR>/<PATH> <CONTAINER>:<PORT>
+  reverse_proxy phpmyadmin:80
 }
